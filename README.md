@@ -24,7 +24,7 @@ El sitio simula un salón de belleza donde se pueden ver los servicios disponibl
 
 ##  Link del proyecto
 
-https://tuusuario.github.io/salon-belleza/
+https://alejaduque-x.github.io/belleza/
 
 ##  Autor
 
