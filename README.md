@@ -33,7 +33,7 @@ El sitio simula un salón de belleza donde se pueden ver y seleccionar servicios
 
 ## Link del proyecto
 
-
+https://alejaduque-x.github.io/belleza/
 
 ## Autor
 
