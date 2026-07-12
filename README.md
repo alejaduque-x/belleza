@@ -1,31 +1,40 @@
-#  Salón de Belleza Ale
+# Salón de Belleza Ale
 
-Este proyecto es una página web hecha como pre entrega de desarrollo front-end.
+Este proyecto es una página web realizada como trabajo final de desarrollo front-end.
 
-##  Descripción
+## Descripción
 
-El sitio simula un salón de belleza donde se pueden ver los servicios disponibles, algunas reseñas de clientes y un formulario de contacto para enviar mensajes.
+El sitio simula un salón de belleza donde se pueden ver y seleccionar servicios de peluquería y uñas. También incluye reseñas de clientes y un formulario de contacto.
 
-##  Tecnologías usadas
+## Tecnologías usadas
 
 - HTML
 - CSS
+- JavaScript
+- Bootstrap
 - Flexbox y Grid
 - Google Fonts
-- Formspree para el formulario
+- Formspree
+- Fake Store API
 
-##  Funciones del sitio
+## Funciones del sitio
 
-- Navegación entre secciones
-- Lista de servicios en formato de tarjetas
-- Reseñas organizadas en columnas
-- Formulario de contacto funcional
-- Diseño adaptable a distintos dispositivos
+- Navegación entre secciones.
+- Servicios mostrados dinámicamente con JavaScript.
+- Buscador de servicios.
+- Filtro por categorías.
+- Carrito de servicios.
+- Posibilidad de agregar, sumar, restar y eliminar servicios.
+- Total y contador del carrito.
+- Carrito guardado con localStorage.
+- Reseñas de clientes.
+- Formulario de contacto funcional.
+- Diseño adaptable a distintos dispositivos.
 
-##  Link del proyecto
+## Link del proyecto
 
-https://alejaduque-x.github.io/belleza/
 
-##  Autor
+
+## Autor
 
 Alejandra Duque
