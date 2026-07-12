@@ -5,20 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="description" content="Contactanos para consultar por servicios de peluquería y uñas.">
+    <meta name="keywords" content="contacto, salón de belleza, peluquería, uñas">
+    <meta name="author" content="Ale">
 
-    <!-- CSS -->
+    <title>Contacto | Salón de Belleza</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
-
-    <title>Contacto</title>
 </head>
 
 <body>
 
-    <!-- HEADER -->
     <header>
-
         <div class="div-logo">
             <a href="../index.html" class="logo">BELLEZA</a>
         </div>
@@ -26,21 +25,18 @@
         <nav class="header-nav">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../index.html#servicios">Servicios</a></li>
+                <li><a href="../index.html#resenas">Reseñas</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
-
     </header>
 
-    <!-- MAIN -->
     <main>
-
         <section class="contacto">
-
             <h1>Contactanos</h1>
 
             <form action="https://formspree.io/f/xqennopv" method="POST">
-
                 <input type="text" name="nombre" placeholder="Nombre" required>
 
                 <input type="email" name="email" placeholder="Correo electrónico" required>
@@ -48,34 +44,31 @@
                 <textarea name="mensaje" placeholder="Escribí tu mensaje" required></textarea>
 
                 <button type="submit">Enviar</button>
-
             </form>
-
         </section>
-
     </main>
 
-    <!-- FOOTER -->
     <footer>
-
         <p>Sitio realizado por Ale</p>
 
         <nav>
             <ul class="footer-list">
-
                 <li>
-                    <img src="../img/whatsapp.png" alt="logo-whatsapp">
+                    <a href="https://wa.me/" target="_blank">
+                        <img src="../img/whatsapp.png" alt="Logo de WhatsApp">
+                    </a>
                 </li>
 
                 <li>
-                    <img src="../img/instagram.png" alt="logo-instagram">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="../img/instagram.png" alt="Logo de Instagram">
+                    </a>
                 </li>
-
             </ul>
         </nav>
-
     </footer>
 
+    <script src="../script.js"></script>
 </body>
 
 </html>
